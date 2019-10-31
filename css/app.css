@@ -2,5 +2,14 @@
 Inicio-Estilos-cabcera
 ==================*/
 .titulo{
-    border: 1px solid black;
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px){
+    .titulo{
+        text-align: center;
+    }
+    .slogan{
+        text-align: center;
+    }
 }

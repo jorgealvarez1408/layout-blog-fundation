@@ -1,15 +1,46 @@
 /*=================
 Inicio-Estilos-cabcera
 ==================*/
+body{
+    background: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 .titulo{
     margin-top: 2rem;
+    padding-right: 2rem;
+    color: white;
+    border-right: 1px solid brown;
+}
+.slogan{
+    float: right;
+}
+.columna-izquierda{
+    height: 100%;
+}
+.avatar-image{
+    margin-top: 2rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
 }
 
-@media (max-width: 768px){
+
+.list-group{
+    padding-left: 2rem;
+}
+.list-group-item:hover{
+    background-color: blue;
+  }
+
+@media (max-width: 320px){
     .titulo{
         text-align: center;
+        border-right: none;
     }
     .slogan{
         text-align: center;
     }
+    
 }
